@@ -69,13 +69,13 @@ def get_pokemon_by_name(name):
             'Legendary': data[13]
         }
         # Registra un mensaje de log indicando la solicitud exitosa
-        logger.info(f"Solicitud exitosa para el Pokémon con Name: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
+        logger.info(f"Solicitud exitosa para el Pokémon con nombre: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
         return jsonify(pokemon)
     else:
         # Registra un mensaje de log indicando que el Pokémon no fue encontrado
-        logger.warning(f"Pokémon no encontrado para el Name: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
-        return jsonify({'message': f'Pokémon con Name "{name}" no encontrado'}), 404
+        logger.warning(f"Pokémon no encontrado para el nombre: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
+        return jsonify({'message': f'Pokémon con nombre "{name}" no encontrado'}), 404
 
 if __name__ == '__main__':
     configure_logging()
-    app.run(debug=True, port=5003)
+    app.run(debug=True, port=5002)
