@@ -1,0 +1,38 @@
+2023-10-04 19:56:25,107 [werkzeug][API][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-04 19:56:25,107 [werkzeug][API][_log] [33mPress CTRL+C to quit[0m
+2023-10-04 19:56:25,109 [werkzeug][API][_log]  * Restarting with stat
+2023-10-04 19:56:25,229 [werkzeug][API][_log]  * Debugger is active!
+2023-10-04 19:56:25,230 [werkzeug][API][_log]  * Debugger PIN: 880-169-513
+2023-10-04 19:56:32,600 [__main__][API][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 1
+2023-10-04 19:56:32,601 [werkzeug][API][_log] 127.0.0.1 - - [04/Oct/2023 19:56:32] "GET /poke_stats/1 HTTP/1.1" 200 -
+2023-10-04 19:56:58,454 [__main__][API][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 2
+2023-10-04 19:56:58,455 [werkzeug][API][_log] 127.0.0.1 - - [04/Oct/2023 19:56:58] "GET /poke_stats/2 HTTP/1.1" 200 -
+2023-10-04 19:58:42,427 [werkzeug][API][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_STATS/app.py', reloading
+2023-10-04 19:58:42,466 [werkzeug][API][_log]  * Restarting with stat
+2023-10-04 19:58:42,591 [werkzeug][POKE_STATS][_log]  * Debugger is active!
+2023-10-04 19:58:42,591 [werkzeug][POKE_STATS][_log]  * Debugger PIN: 880-169-513
+2023-10-04 19:59:40,826 [werkzeug][POKE_STATS][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-04 19:59:40,826 [werkzeug][POKE_STATS][_log] [33mPress CTRL+C to quit[0m
+2023-10-04 19:59:40,828 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 19:59:40,977 [werkzeug][POKE_STATS][_log]  * Debugger is active!
+2023-10-04 19:59:40,978 [werkzeug][POKE_STATS][_log]  * Debugger PIN: 880-169-513
+2023-10-04 19:59:43,753 [__main__][POKE_STATS][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 2
+2023-10-04 19:59:43,754 [werkzeug][POKE_STATS][_log] 127.0.0.1 - - [04/Oct/2023 19:59:43] "GET /poke_stats/2 HTTP/1.1" 200 -
+2023-10-04 20:00:14,559 [werkzeug][POKE_STATS][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-04 20:00:14,559 [werkzeug][POKE_STATS][_log] [33mPress CTRL+C to quit[0m
+2023-10-04 20:00:14,561 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 20:00:14,679 [werkzeug][POKE_STATS][_log]  * Debugger is active!
+2023-10-04 20:00:14,680 [werkzeug][POKE_STATS][_log]  * Debugger PIN: 880-169-513
+2023-10-04 20:02:40,124 [werkzeug][POKE_STATS][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_STATS/app.py', reloading
+2023-10-04 20:02:40,172 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 20:02:42,190 [__main__][API][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 2 [0.00 seconds]
+2023-10-04 20:03:55,486 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 20:04:01,094 [__main__][API][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 2 [0.66 ms]
+2023-10-04 20:04:03,853 [__main__][API][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 5 [0.66 ms]
+2023-10-04 20:04:22,725 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 20:04:28,956 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 20:05:14,527 [werkzeug][POKE_STATS][_log]  * Restarting with stat
+2023-10-04 20:05:58,046 [__main__][POKE_STATS][get_pokemon_by_id] Solicitud exitosa para el Pokémon con poke_id: 30 [0.84 ms]
