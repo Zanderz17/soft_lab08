@@ -1,0 +1,4 @@
+2023-10-05 13:26:48,506 [INFO] [__main__][POKE_INFO][search_pokemon] Solicitud exitosa para el Pokémon: pikachu [665.12 ms]
+2023-10-05 14:01:45,220 [INFO] [__main__][POKE_INFO][search_pokemon] Solicitud exitosa para el Pokémon: Pikachu [501.09 ms]
+2023-10-05 14:02:13,079 [INFO] [__main__][POKE_INFO][search_pokemon] Solicitud exitosa para el Pokémon: Pikachu [487.47 ms]
+2023-10-05 14:03:16,026 [INFO] [__main__][POKE_INFO][search_pokemon] Solicitud exitosa para el Pokémon: Pikachu [291.09 ms]

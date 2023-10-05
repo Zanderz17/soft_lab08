@@ -124,3 +124,10 @@
 2023-10-05 08:21:53,408 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
 2023-10-05 08:21:56,442 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
 2023-10-05 08:22:02,524 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Latias [3.84 ms]
+2023-10-05 13:36:13,198 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra [1.58 ms]
+2023-10-05 13:42:42,231 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra [1.57 ms]
+2023-10-05 13:59:36,919 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra [2.72 ms]
+2023-10-05 14:00:36,658 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Pikachu [0.47 ms]
+2023-10-05 14:01:45,257 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Pikachu [0.47 ms]
+2023-10-05 14:02:13,142 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Pikachu [2.78 ms]
+2023-10-05 14:03:16,172 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Pikachu [0.93 ms]

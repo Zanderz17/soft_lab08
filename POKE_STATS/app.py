@@ -70,7 +70,7 @@ def get_pokemon_by_name(name):
         }
         # Registra un mensaje de log indicando la solicitud exitosa
         logger.info(f"Solicitud exitosa para el Pokémon con nombre: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
-        return jsonify(pokemon)
+        return jsonify(pokemon), 200
     else:
         # Registra un mensaje de log indicando que el Pokémon no fue encontrado
         logger.warning(f"Pokémon no encontrado para el nombre: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
@@ -78,4 +78,4 @@ def get_pokemon_by_name(name):
 
 if __name__ == '__main__':
     configure_logging()
-    app.run(debug=True)
+    app.run(debug=True, port = 5003)

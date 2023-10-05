@@ -10,3 +10,8 @@
 2023-10-04 20:56:43,777 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con Name: Raichu [1.58 ms]
 2023-10-04 20:56:44,023 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con Name: Raichu [1.54 ms]
 2023-10-05 08:02:31,319 [WARNING] [__main__][POKE_STATS][get_pokemon_by_name] Pokémon no encontrado para el nombre: ga [15.99 ms]
+2023-10-05 13:48:32,365 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con nombre: Abra [5.97 ms]
+2023-10-05 14:00:36,654 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con nombre: Pikachu [5.38 ms]
+2023-10-05 14:01:45,252 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con nombre: Pikachu [1.01 ms]
+2023-10-05 14:02:13,134 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con nombre: Pikachu [1.79 ms]
+2023-10-05 14:03:16,071 [INFO] [__main__][POKE_STATS][get_pokemon_by_name] Solicitud exitosa para el Pokémon con nombre: Pikachu [1.73 ms]
