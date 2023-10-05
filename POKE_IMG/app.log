@@ -3,3 +3,124 @@
 2023-10-04 20:37:11,506 [INFO] [werkzeug][POKE_STATS][_log] [33mPress CTRL+C to quit[0m
 2023-10-04 20:37:15,149 [INFO] [__main__][POKE_STATS][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Raichu
 2023-10-04 20:37:15,152 [INFO] [werkzeug][POKE_STATS][_log] 127.0.0.1 - - [04/Oct/2023 20:37:15] "[36mGET /poke_img/raichu HTTP/1.1[0m" 304 -
+2023-10-05 07:51:32,887 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 07:51:32,887 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 07:51:42,025 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:51:42] "[33mGET / HTTP/1.1[0m" 404 -
+2023-10-05 07:51:42,107 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:51:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-05 07:51:50,038 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:51:50] "[33mGET /Abra HTTP/1.1[0m" 404 -
+2023-10-05 07:52:02,730 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 07:52:02,732 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:52:02] "GET /poke_img/Abra HTTP/1.1" 200 -
+2023-10-05 07:56:52,971 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 07:56:52,972 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:56:52] "GET /poke_img/Abra HTTP/1.1" 200 -
+2023-10-05 07:56:57,340 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 07:56:57,340 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 07:57:02,921 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 07:57:02,922 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:57:02] "GET /poke_img/Abra HTTP/1.1" 200 -
+2023-10-05 07:57:09,986 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:57:09] "[33mGET /poke_img/Abras HTTP/1.1[0m" 404 -
+2023-10-05 07:58:47,764 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:58:47] "[33mGET /poke_img/Abras HTTP/1.1[0m" 404 -
+2023-10-05 07:58:55,778 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 07:58:55,779 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 07:58:58,531 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:58:58] "[33mGET /poke_img/Abras HTTP/1.1[0m" 404 -
+2023-10-05 07:59:16,216 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 07:59:16,217 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 07:59:25,708 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 07:59:25] "[33mGET /poke_img/Abrasss HTTP/1.1[0m" 404 -
+2023-10-05 08:01:05,407 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:01:05,407 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:01:07,465 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:01:07] "[33mGET /poke_img/Abrasss HTTP/1.1[0m" 404 -
+2023-10-05 08:01:18,121 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:01:18] "[33mGET /poke_img/ga HTTP/1.1[0m" 404 -
+2023-10-05 08:02:08,981 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:02:08] "[33mGET /poke_stats/ga HTTP/1.1[0m" 404 -
+2023-10-05 08:02:26,803 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:02:26] "[33mGET /poke_stats/ga HTTP/1.1[0m" 404 -
+2023-10-05 08:03:15,781 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 08:03:15,782 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:03:15] "[36mGET /poke_img/Abra HTTP/1.1[0m" 304 -
+2023-10-05 08:03:40,488 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:03:40] "[33mGET /poke_img/Abras HTTP/1.1[0m" 404 -
+2023-10-05 08:05:46,898 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:05:46,898 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:05:46,899 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:05:47,111 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:05:47,111 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:05:54,802 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 08:05:54,802 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:05:54] "[36mGET /poke_img/Abra HTTP/1.1[0m" 304 -
+2023-10-05 08:06:15,816 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:06:15] "[33mGET /poke_img/Abras HTTP/1.1[0m" 404 -
+2023-10-05 08:06:32,242 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:06:32] "[33mGET /poke_img/Abrasss HTTP/1.1[0m" 404 -
+2023-10-05 08:08:39,555 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:08:39,625 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:08:39,831 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:08:39,831 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:08:42,881 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:08:42,882 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:08:42,883 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:08:43,091 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:08:43,092 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:08:46,911 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:08:46] "[33mGET /poke_img/Abrasss HTTP/1.1[0m" 404 -
+2023-10-05 08:08:59,016 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:08:59] "[33mGET /poke_img/sss HTTP/1.1[0m" 404 -
+2023-10-05 08:09:08,849 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:09:08] "[36mGET /poke_img/Abra HTTP/1.1[0m" 304 -
+2023-10-05 08:15:13,906 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:15:13,972 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:15:14,174 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:15:14,174 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:15:21,685 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:15:21,742 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:15:44,126 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:15:44,127 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:15:44,127 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:15:44,336 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:15:44,336 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:15:52,542 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 08:15:52,544 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:15:52] "[36mGET /poke_img/Abra HTTP/1.1[0m" 304 -
+2023-10-05 08:16:00,087 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:16:00] "[33mGET /poke_img/AbraS HTTP/1.1[0m" 404 -
+2023-10-05 08:17:59,196 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:17:59,254 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:17:59,443 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:17:59,443 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:18:03,496 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:18:03,497 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:18:03,498 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:18:03,705 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:18:03,706 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:18:08,604 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Abra
+2023-10-05 08:18:08,605 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:18:08] "[36mGET /poke_img/Abra HTTP/1.1[0m" 304 -
+2023-10-05 08:18:17,876 [WARNING] [__main__][POKE_IMG][serve_pokemon_image] Pokémon no encontrado para el nombre: Abras
+2023-10-05 08:18:17,877 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:18:17] "[33mGET /poke_img/AbraS HTTP/1.1[0m" 404 -
+2023-10-05 08:18:42,759 [WARNING] [__main__][POKE_IMG][serve_pokemon_image] Pokémon no encontrado para el nombre: Newtwo
+2023-10-05 08:18:42,760 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:18:42] "[33mGET /poke_img/Newtwo HTTP/1.1[0m" 404 -
+2023-10-05 08:18:49,553 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Absol
+2023-10-05 08:18:49,918 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:18:49] "GET /poke_img/Absol HTTP/1.1" 200 -
+2023-10-05 08:19:58,358 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:19:58,426 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:19:58,644 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:19:58,645 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:20:18,238 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:20:18,314 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:20:18,541 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:20:18,542 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:20:25,453 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:20:25,453 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:20:25,454 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:20:25,662 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:20:25,662 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:20:28,174 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Absol
+2023-10-05 08:20:28,175 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:20:28] "[36mGET /poke_img/Absol HTTP/1.1[0m" 304 -
+2023-10-05 08:20:31,935 [INFO] [werkzeug][POKE_IMG][_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-05 08:20:31,935 [INFO] [werkzeug][POKE_IMG][_log] [33mPress CTRL+C to quit[0m
+2023-10-05 08:20:31,936 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:20:32,181 [WARNING] [werkzeug][POKE_IMG][_log]  * Debugger is active!
+2023-10-05 08:20:32,182 [INFO] [werkzeug][POKE_IMG][_log]  * Debugger PIN: 386-236-216
+2023-10-05 08:20:43,432 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Absol
+2023-10-05 08:20:43,433 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:20:43] "[36mGET /poke_img/Absol HTTP/1.1[0m" 304 -
+2023-10-05 08:20:46,933 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Latias
+2023-10-05 08:20:47,293 [INFO] [werkzeug][POKE_IMG][_log] 127.0.0.1 - - [05/Oct/2023 08:20:47] "GET /poke_img/Latias HTTP/1.1" 200 -
+2023-10-05 08:21:53,351 [INFO] [werkzeug][POKE_IMG][_log]  * Detected change in '/mnt/50A68CE3A68CCB44/UTEC/2023_2/Software_02/Semana08/Lab/soft_lab08/POKE_IMG/app.py', reloading
+2023-10-05 08:21:53,408 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:21:56,442 [INFO] [werkzeug][POKE_IMG][_log]  * Restarting with stat
+2023-10-05 08:22:02,524 [INFO] [__main__][POKE_IMG][serve_pokemon_image] Solicitud exitosa para el Pokémon con nombre: Latias [3.84 ms]
