@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import psycopg2
 import logging
 import os
@@ -18,7 +18,7 @@ db_params = {
 # Configuración de logging
 def configure_logging():
     log_level = os.environ.get('LOG_LEVEL', 'INFO')
-    log_format = '%(asctime)s [%(name)s][POKE_STATS][%(funcName)s] %(message)s [%(elapsed_time)s ms]'
+    log_format = '%(asctime)s [%(levelname)s] [%(name)s][POKE_STATS][%(funcName)s] %(message)s [%(elapsed_time)s ms]'
     log_filename = 'app.log'
 
     logging.basicConfig(
@@ -27,9 +27,9 @@ def configure_logging():
         filename=log_filename,
     )
 
-# Ruta para obtener datos de un Pokémon por poke_id
-@app.route('/poke_stats/<int:poke_id>', methods=['GET'])
-def get_pokemon_by_id(poke_id):
+# Ruta para obtener datos de un Pokémon por Name
+@app.route('/poke_stats/<string:name>', methods=['GET'])
+def get_pokemon_by_name(name):
     # Conexión a la base de datos
     conn = psycopg2.connect(**db_params)
     cursor = conn.cursor()
@@ -37,8 +37,8 @@ def get_pokemon_by_id(poke_id):
     # Registra el tiempo en que se ejecuta la consulta
     start_time = time.time()
 
-    # Ejecutar una consulta SQL para obtener los datos del Pokémon por poke_id
-    cursor.execute("SELECT * FROM Pokemon_Stats WHERE poke_id = %s", (poke_id,))
+    # Ejecutar una consulta SQL para obtener los datos del Pokémon por Name
+    cursor.execute("SELECT * FROM Pokemon_Stats WHERE Name = %s", (name,))
     data = cursor.fetchone()
 
     # Calcular el tiempo transcurrido en milisegundos
@@ -69,12 +69,12 @@ def get_pokemon_by_id(poke_id):
             'Legendary': data[13]
         }
         # Registra un mensaje de log indicando la solicitud exitosa
-        logger.info(f"Solicitud exitosa para el Pokémon con poke_id: {poke_id}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
+        logger.info(f"Solicitud exitosa para el Pokémon con Name: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
         return jsonify(pokemon)
     else:
         # Registra un mensaje de log indicando que el Pokémon no fue encontrado
-        logger.warning(f"Pokémon no encontrado para el poke_id: {poke_id}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
-        return jsonify({'message': 'Pokémon no encontrado'}), 404
+        logger.warning(f"Pokémon no encontrado para el Name: {name}", extra={'elapsed_time': f'{elapsed_time:.2f}'})
+        return jsonify({'message': f'Pokémon con Name "{name}" no encontrado'}), 404
 
 if __name__ == '__main__':
     configure_logging()
