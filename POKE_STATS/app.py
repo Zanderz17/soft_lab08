@@ -78,4 +78,4 @@ def get_pokemon_by_name(name):
 
 if __name__ == '__main__':
     configure_logging()
-    app.run(debug=True)
+    app.run(debug=True, port=5003)

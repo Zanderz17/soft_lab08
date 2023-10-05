@@ -35,4 +35,4 @@ def serve_pokemon_image(pokemon_name):
 
 if __name__ == '__main__':
     configure_logging()
-    app.run(port=5001)
+    app.run(port=5002)

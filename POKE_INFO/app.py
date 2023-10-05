@@ -17,9 +17,8 @@ def configure_logging():
         filename=log_filename,
     )
 
-@app.route('/poke/search', methods=['GET'])
-def search_pokemon():
-    pokemon_name = request.args.get('pokemon_name')
+@app.route('/poke_info/<string:pokemon_name>', methods=['GET'])
+def info_pokemon(pokemon_name):
     start_time = time.time()
     logger = logging.getLogger(__name__)
 
@@ -64,4 +63,4 @@ def get_pokemon_data(pokemon_name):
 
 if __name__ == '__main__':
     configure_logging()
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
