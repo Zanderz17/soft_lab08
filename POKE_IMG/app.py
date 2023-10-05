@@ -59,13 +59,9 @@ def serve_pokemon_image_show(pokemon_name):
         response = send_from_directory('images', f'{pokemon_name}/0.jpg')
         return response
     else:
-        return jsonify({'message': f'Pokémon con nombre "{pokemon_name}" no encontrado'}, extra={'elapsed_time': f'{elapsed_time:.2f}'}), 404
+        return jsonify({'message': f'Pokémon con nombre "{pokemon_name}" no encontrado'}), 404
 
 
 if __name__ == '__main__':
     configure_logging()
-<<<<<<< HEAD
-    app.run(port=5003)
-=======
     app.run(debug = True, port = 5002)
->>>>>>> origin/main
